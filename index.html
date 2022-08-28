@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reconstitution Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="reconstitutionconcentrationRadio" name="variables" checked>
+  <label for="reconstitutionconcentrationRadio">Reconstitution concentration</label>
+
+  <input type="radio" id="doseRadio" name="variables">
+  <label for="doseRadio">Dose</label>
+
+  <input type="radio" id="dosevolumeRadio" name="variables">
+  <label for="dosevolumeRadio">Dose volume</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Dose</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Dose volume</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
